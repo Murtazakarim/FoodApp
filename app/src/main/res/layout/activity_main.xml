@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cafe"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundOpacity">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/dpImageContent"
+            android:tint="#fff"
+            android:layout_weight="3"
+            android:padding="8dp"
+            app:srcCompat="@drawable/dish" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/cafelogo"
+            android:textColor="@color/whiteColour"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_gredient"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/btnlogin"
+            android:textColor="@color/whiteColour"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_gredient"
+            android:padding="8dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/btn_register"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:id="@+id/btnskip"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/tv_Skipe"
+            android:textSize="26sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:textColor="@color/whiteColour"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

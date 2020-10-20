@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#807F83</color>
+    <color name="colorPrimaryDark">#ADB2B6</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="whiteColour">#ffffff</color>
+    <color name="backgroundOpacity">#AB363535</color>
+    <color name="endColour">#F37C0A</color>
+    <color name="fbcolour">#3b5998</color>
+    <color name="googleplus">#F44336</color>
+</resources>
